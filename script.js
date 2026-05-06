@@ -29,3 +29,6 @@ function updateTemps() {
 }
 
 setInterval(updateTemps, 1000);
+
+console.log("JS OK");
+alert("test");
