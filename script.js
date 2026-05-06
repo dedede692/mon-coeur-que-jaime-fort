@@ -1,7 +1,11 @@
+console.log("JS chargé");
+
+// bouton 1
 function messageAmour() {
-    alert("tu comptes énormément pour moi !");
+    alert("Tu comptes énormément pour moi ❤️");
 }
 
+// bouton 2
 function nouveauMessage() {
     const messages = [
         "Tu rends mes journées plus belles 💕",
@@ -9,15 +13,13 @@ function nouveauMessage() {
         "Ton sourire me rend heureux(se) 😊",
         "Avec toi, tout est mieux ❤️",
         "Tu es vraiment spécial(e) pour moi ✨"
-	"Je t'aime"
-	"Toi, Roiroi et Mouton vous me manquez énormément"
     ];
 
     const random = Math.floor(Math.random() * messages.length);
     document.getElementById("message").textContent = messages[random];
 }
 
-// Compteur d'amour (change la date ici)
+// compteur (243 jours environ)
 const debut = new Date("2025-09-05");
 
 function updateTemps() {
@@ -28,7 +30,5 @@ function updateTemps() {
     document.getElementById("temps").textContent = jours + " jours ❤️";
 }
 
+updateTemps();
 setInterval(updateTemps, 1000);
-
-console.log("JS OK");
-alert("test");
