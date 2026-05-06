@@ -1,5 +1,3 @@
-console.log("JS chargé");
-alert("JS OK");
 
 // bouton 1
 function messageAmour() {
