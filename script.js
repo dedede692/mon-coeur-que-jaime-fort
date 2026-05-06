@@ -12,8 +12,7 @@ function nouveauMessage() {
         "Ton sourire me rend heureux 😊",
         "Avec toi, tout est mieux ❤️",
         "Tu es vraiment spécial pour moi ✨"
-	"Je t'aime"
-	"Toi, Roiroi et Mouton vous me manquez énormement"
+	
     ];
 
     const random = Math.floor(Math.random() * messages.length);
